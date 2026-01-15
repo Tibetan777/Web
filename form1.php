@@ -1,6 +1,6 @@
 <html lang="en">
     <head>
-        <title>TibetanWebPage</title>
+        <title>Tibetanwebpage</title>
     </head>
         <body>
             <form name= "frmRegis" method= "post" action= "regis.php">
@@ -17,7 +17,7 @@
                 <option value="COFF" >COFFEE </option>
             </select>
             <br>
-                <input type= "submit" value= "Save">
+                <input type= "submit" name = "save" value= "Save">
                 <input type= "reset" value= "Cancel">
             </form>
         </body>
